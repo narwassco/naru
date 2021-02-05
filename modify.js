@@ -111,7 +111,7 @@ const water = (f) => {
     const lut = {
       water: 6,
       wetland: 8,
-      coastline: 2,
+      coastline: 6,
       glacier: 6
     }
     f.tippecanoe = {
@@ -177,7 +177,7 @@ const boundary = (f) => {
     }
     switch (f.properties.admin_level) {
       case '2':
-        return 6
+        return 7
       case '3':
       case '4':
         return 10

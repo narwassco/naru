@@ -7,6 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "@mapbox/geojson-area": "^0.2.2",
-    "json-text-sequence": "^0.1.1"
+    "json-text-sequence": "^0.1.1",
+    "ne2geojson": "git+https://github.com/watergis/ne2geojson.git"
   }
 }
