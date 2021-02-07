@@ -12,8 +12,8 @@ services:
       - ./src:/usr/src/app/src
       - ./entrypoint.sh:/usr/src/app/entrypoint.sh
     environment: 
-     - REGION: $REGION
-     - AREA: $AREA
-     - SITE_ROOT: $SITE_ROOT
+     - REGION=$REGION
+     - AREA=$AREA
+     - SITE_ROOT=$SITE_ROOT
     ports:
       - "9966:9966"
