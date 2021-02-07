@@ -2,7 +2,7 @@ version: '3'
 
 services:
   naru:
-    image: unvt/naru
+    image: wasac/naru:latest
     build:
       dockerfile: Dockerfile
       context: .
