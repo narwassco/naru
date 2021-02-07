@@ -1,7 +1,6 @@
 REGION = ENV['REGION']
 AREA = ENV['AREA']
 MBTILES = "src/tiles.mbtiles"
-NE_MBTILES = "src/ne_tiles.mbtiles"
 SITE_ROOT = ENV['SITE_ROOT'] || 'http://localhost:9966'
 
 namespace :inet do
@@ -12,9 +11,14 @@ namespace :inet do
   
   desc 'download source geospatial data to the place'
   task :download do
-    u = "https://download.geofabrik.de/#{REGION}/{#{AREA}-latest.osm.pbf}"
-    sh "curl -C - #{u} --output './src/#1'"
-    sh "node node_modules/ne2geojson/src/index.js download $(pwd)/src $(pwd)/config.json"
+    if !File.exist?("src/#{AREA}-latest.osm.pbf")
+      u = "https://download.geofabrik.de/#{REGION}/{#{AREA}-latest.osm.pbf}"
+      sh "curl -C - #{u} --output './src/#1'"
+    end
+    if !File.exist?("src/ne_tiles.mbtiles")
+      u = "https://watergis.github.io/unvt-ne/{ne_tiles.mbtiles}"
+      sh "curl -C - #{u} --output './src/#1'"
+    end
   end
   
   desc 'TODO: clone and build mapbox-gl-js, and copy to docs'
@@ -35,9 +39,8 @@ end
 
 desc 'build tiles from source data'
 task :tiles do
-  sh "node node_modules/ne2geojson/src/index.js download $(pwd)/src $(pwd)/config.json | node node_modules/ne2geojson/src/index.js convert | tippecanoe --no-feature-limit --no-tile-size-limit --force --simplification=2 --maximum-zoom=6 --base-zoom=6 --hilbert --output=#{NE_MBTILES}"
   sh "osmium export --config osmium-export-config.json --index-type=sparse_file_array --output-format=geojsonseq --output=- src/#{AREA}-latest.osm.pbf | node filter.js | tippecanoe --no-feature-limit --no-tile-size-limit --force --simplification=2 --maximum-zoom=15 --base-zoom=15 --hilbert --output=#{MBTILES}"
-  sh "tile-join --force --no-tile-compression --output-to-directory=docs/zxy --no-tile-size-limit #{MBTILES} #{NE_MBTILES}"
+  sh "tile-join --force --no-tile-compression --output-to-directory=docs/zxy --no-tile-size-limit #{MBTILES} src/ne_tiles.mbtiles"
 end
 
 desc 'build style.json from HOCON descriptions'
