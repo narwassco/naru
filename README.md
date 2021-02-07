@@ -1,8 +1,8 @@
 *This project is not actively maintained at present. However, opteo/kokoromi-\* series are developed using naru.*
 
 # naru
-![deploy](https://github.com/WASAC/naru/workflows/deploy/badge.svg)
-![GitHub](https://img.shields.io/github/license/wasac/naru)
+![deploy](https://github.com/narwassco/naru/workflows/deploy/badge.svg)
+![GitHub](https://img.shields.io/github/license/narwassco/naru)
 ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/wasac/naru)
 ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/wasac/naru)
 
