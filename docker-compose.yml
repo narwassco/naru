@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  naru:
+    image: wasac/naru:latest
+    # build:
+    #   dockerfile: Dockerfile
+    #   context: .
+    entrypoint: '/usr/src/app/entrypoint.sh'
+    volumes:
+      - ./docs:/usr/src/app/docs
+      - ./src:/usr/src/app/src
+    environment: 
+     - REGION=$REGION
+     - AREA=$AREA
+     - SITE_ROOT=$SITE_ROOT
+    ports:
+      - "9966:9966"
