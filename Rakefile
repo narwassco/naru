@@ -1,3 +1,5 @@
+require 'dotenv/load' #load environmental variable from .env
+
 REGION = ENV['REGION']
 AREA = ENV['AREA']
 MBTILES = "src/tiles.mbtiles"
@@ -21,19 +23,36 @@ namespace :inet do
     end
   end
   
-  desc 'TODO: clone and build mapbox-gl-js, and copy to docs'
+  desc 'clone and build mapbox-gl-js, and copy to docs'
   task :mbgljs do
-    raise 'to be implemented.'
+    SRC_DIR="./src/js"
+    DIST_DIR="./docs/js"
+    if !Dir.exist?("#{SRC_DIR}")
+      sh "git clone https://github.com/unvt/js.git #{SRC_DIR}"
+    end
+    if !Dir.exist?("#{DIST_DIR}")
+      sh "mkdir -p #{DIST_DIR}"
+    end
+    sh "cp #{SRC_DIR}/docs/mapbox-gl.css '#{DIST_DIR}/.'"
+    sh "cp #{SRC_DIR}/docs/mapbox-gl.js '#{DIST_DIR}/.'"
   end
   
-  desc 'TODO: clone and build fonts, and copy to docs'
+  desc 'clone and build fonts, and copy to docs'
   task :fonts do
-    raise 'to be implemented.'
+    require './glyphs_generate'
+    FONTS_DIR="./src"
+    OUTPUTS_DIR="./docs"
+    glyphs_generate(FONTS_DIR, OUTPUTS_DIR)
   end
   
-  desc 'TODO: clone and build maki, and copy to docs'
+  desc 'clone and build maki, and copy to docs'
   task :sprite do
-    raise 'to be implemented.'
+    u = "https://github.com/mapbox/maki/zipball/master"
+    dest = "./src/maki"
+    if !File.exist?("#{dest}.zip")
+      sh "wget -O #{dest}.zip #{u}"
+    end
+    sh "node sprite.js"
   end
 end
 
@@ -64,7 +83,8 @@ desc 'TODO: build JavaScript code using rollup'
 task :js do
 end
 
-desc 'TODO: run vt-optimizer'
+desc 'run vt-optimizer'
 task :optimizer do
+  sh "yarn run optimiser -m #{MBTILES}"
 end
 
