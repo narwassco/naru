@@ -1,8 +1,8 @@
 name: deploy
 
 on:
-  # push:
-  #   branches: [ develop ]
+  push:
+    branches: [ develop ]
 
   schedule:
     - cron:  '0 0 1,15 * *'
@@ -32,4 +32,4 @@ jobs:
         git config --global user.name "narwassco+githubci"
         git config --global user.email "narwassco+githubci@users.noreply.github.com"
         git remote set-url origin https://x-access-token:${NODE_AUTH_TOKEN}@github.com/narwassco/naru.git
-        yarn run deploy
+        NODE_OPTIONS="--max-old-space-size=2048" yarn run deploy
