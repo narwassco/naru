@@ -32,4 +32,4 @@ jobs:
         git config --global user.name "narwassco+githubci"
         git config --global user.email "narwassco+githubci@users.noreply.github.com"
         git remote set-url origin https://x-access-token:${NODE_AUTH_TOKEN}@github.com/narwassco/naru.git
-        NODE_OPTIONS="--max-old-space-size=2048" yarn run deploy
+        yarn run deploy
