@@ -28,6 +28,7 @@ jobs:
     - name: configure git and deploy
       env:
         NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        NODE_OPTIONS: "--max-old-space-size=8192"
       run: |
         git config --global user.name "narwassco+githubci"
         git config --global user.email "narwassco+githubci@users.noreply.github.com"
