@@ -787,7 +787,7 @@ H"<T
 forest"
 Sigiria Forest"
 grass"
-Reserved Insect ScienceF  "<	ˆŸŠ  ,÷ÇÏ){ü“ñ_µå‹Ó‡æ½<}W—‡ dLk "	äÄ>"%D=#Z  "R	Ÿž1úZFHVX€`D8lÄ3T?ŒKðE„ˆŸR³ts`¯HƒDG(C7?#k_Wƒ5 S|—I-5?S  "K	öš6Ê¤ìÔ´Üp¤âtdÛcýµ‹Lß'WYe!	]$L8£_k£K¼'G§/ß   "	ŸÜ>2’‚lln¥   "	è´@2¾2Ð(^ÿ vO(²Rx
+Reserved Insect ScienceF  "<	ˆŸŠ  ,÷ÇÏ){ü“ñ_µå‹Ó‡æ½<}W—‡ dLk "	äÄ>"%D=#Z  "R	Ÿž1úZFHVX€`D8lÄ3T?ŒKðE„ˆŸR³ts`¯HƒDG(C7?#k_Wƒ5 S|—I-5?S  "K	öš6Ê¤ìÔ´Üp¤âtdÛcýµ‹Lß'WYe!	]$L8£_k£K¼'G§/ß   "	ŸÜ>2’‚lln¥   "	è´@2¾2Ð(^ÿ vO(ÏRx
 place(€ amenityofficenameaccessibilitybuilding:classroomsbuilding:levelsbuilding:materialbuilding:roofcontact:addresscontact:emailcontact:phoneeducation:bom_employededucation:bom_how_manyeducation:curriculumeducation:exam_centereducation:extra_dramaeducation:extra_musiceducation:extra_othereducation:extra_scoutseducation:extra_sportseducation:feeseducation:fees_admissioneducation:fees_exameducation:fees_luncheducation:fees_per_yeareducation:fees_tripeducation:gender_typeeducation:government_grantseducation:government_registerededucation:management_committeeeducation:mean_scoreeducation:nemis_codeeducation:operate_aseducation:program_counsellingeducation:program_feeding%education:program_feeding_descriptioneducation:program_orphanseducation:program_other education:program_sanitary_toweleducation:program_special_needseducation:ptaeducation:school_headeducation:studentseducation:students_femaleeducation:students_maleeducation:teacherseducation:teachers_femaleeducation:teachers_maleeducation:teachers_trainededucation:tsc_employededucation:tsc_how_manyeducation:typeelectricity:operational_statusimage:classroomimage:compoundimage:sign_postoperator:descriptionoperator:typetoilet:presenttoilets:femaletoilets:handwashingtoilets:maletoilets:teacherswater:sourceeducation:fees_level1education:fees_level2education:fees_level3toilets:wheelchair
 wheelchairis_inplacetoilet:arranged_nameeducation:admission_feeeducation:exam_feeeducation:how_manyeducation:lunch_fee education:ntsa_approved_teachers&education:parents_teachers_association%education:sanitary_towel_distributioneducation:special_needseducation:trip_feeeducation:which_ministrytoiletswater:hand_wash_facilitywater:source_of_waterleisure	addr:cityaddr:housenumberaddr:street	emergency
 healthcarehealthcare:specialitybrandbrand:wikidatabrand:wikipediaaddr:postcodeopening_hoursbedsoperational_statusaccessfee
@@ -1038,7 +1038,8 @@ Ojijo Road"
 UNHCR House,"
 P.O. Box 43801, Nairobi"
 Waiyaki Way"
-Graffins College"
+Graffins College"	
+Chiromo"
 Consolata School"
 
 The Yard"
@@ -1062,7 +1063,7 @@ r3s^ 4!"#$&'()t*u+H,H-Z.Z/0Z384v5w6x7y8
 ‹HŒ]IŽJKL ‘M!"#$N)’O*“+“,-a.I/Q0aP12ƒ3”Q•4%5–6—7˜8*9*R;™=>ZST.š"	ú)ì
 U›"	œ=ÎU›"	Ì?z"VœWXž ŸYZŸ[ ¡"	Ä5Î ;"	ú(Ä ¢£"	æ)‚‘…0  Z	¤	¥
 ¦3}§ 4!"#$&'()¨*©+ ,ª-Z.Z/0Z12Z384%5«6¬7­8®9*:;¯<=H>-?.°"	 "‚* ”0  ±	¤	¥
-¦²³}§´ 4!"#$%µ&'()¨*¶+·,·-¸.²/¹0¸12¸3$4%5º6»7¼8)9*:;¯<=H>¹?.°"	Ê"ö* VœX½ ¢\£]¾^¿£"	Ì&â+Vœ_ÀX½ ÁÂ"	¸*„/VœXÃ  Ä"	Ô5¤&VœXÅ ¢Æ"	œ;Ö!  Ç"	Þ<ˆ<  È"	Ì*ä3  É"	Ì'š2  `ÊË"	”$²8UÌÍ"	ø ò?UÌÍ"	†Ô>VœXÎ  Ï"	œà9UÌÍ"	øÔ>VœX½ ¢\£]¾£"	œÚ$VœX½ ÐCDÑÒ"	ÌÄ% ŸÓ"	Ð¦! ;"	ð¢"VœXÔ ŸZŸÕ"	 ¾# VœXÖ ¢\×]Ø^Ù×"	Šò*! ŸaQZŸ[Ú`ÊbÛ9NÜ"	²”, VœX½ ¢\Ý]Þ^ßÝ"	ÖŠ VœWà_áXâã"	¾¾, ;"	äØ<  ä"	5Ž,VœX½UÌå"	•ŒcVœXæ ;deç"	‡Æ ;"	ÒŒ@ ;è"	š¾@UÌ"	®â@VœXÅ ¢é"	†AÀªdx
+¦²³}§´ 4!"#$%µ&'()¨*¶+·,·-¸.²/¹0¸12¸3$4%5º6»7¼8)9*:;¯<=H>¹?.°"	Ê"ö* VœX½ ¢\£]¾^¿£"	Ì&â+Vœ_ÀX½ ÁÂ"	¸*„/VœXÃ  Ä"	Ô5¤&VœXÅ ¢Æ"	œ;Ö!  Ç"	Þ<ˆ<  È"	Ì*ä3  É"	Ì'š2  `ÊË"	”$²8UÌÍ"	ø ò?UÌÍ"	†Ô>VœXÎ  Ï"	œà9UÌÍ"	øÔ>VœX½ ¢\£]¾£"	œÚ$VœX½ ÐCDÑÒ"	ÌÄ% ŸÓ"	Ð¦! ;"	ð¢"VœXÔ ŸZŸÕ"	 ¾# VœXÖ ¢\×]Ø^Ù×"	Šò*! ŸaQZŸ[Ú`ÊbÛ9NÜ"	²”, VœX½ ¢\Ý]Þ^ßÝ"	ÖŠ VœWà_áXâã"	¾¾,F>ä"	ì	ø4 ;"	äØ<  å"	5Ž,VœX½UÌæ"	•ŒcVœXç ;deè"	‡Æ ;"	ÒŒ@ ;é"	š¾@UÌ"	®â@VœXÅ ¢ê"	†AÀªdx
 road(€ highwaynameonewayrefbicyclejunctionlanessurfaceaccessmaxspeedfoothorsebridgelayertunnel
 smoothnesslitsidewalk"
 residential"
