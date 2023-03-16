@@ -1388,7 +1388,7 @@ Y ‡A§99C  (.ŽsO= "3	Ü1¨
  "	î'Ø7J5
 -"%	Ð €9b>FŠš†Ž@-		W+‘K;+ ±# "	Þ+‚@B&	 "	ò/ì@*:45 
 #"	¢4Ü?B$^ © !g
-*1	 "%	Ø2ä>z,>XH"XW  ;/	)	¹@x
+*1	 "%	Ø2ä>z,>XH"XW  ;/	)	Ë@x
 place(€ leisurenameamenity	addr:cityaddr:streetofficebarrierbicyclebuildingfoothorsemotorcar
 motorcyclesportbranchbrandbrand:wikidatabrand:wikipedia
 healthcarecoveredaddr:postcode
@@ -1614,7 +1614,8 @@ BMinistry of Transport, Infrastructure, Housing & Urban Development"0
 54th Floor, ACK Garden House, P. O. Box 45335, Nairobi"#
 !World Health Organisation Somalia"L
 JKenya Medical Laboratory Technicians and Technologists Board (K.M.L.T.T.B)"F
-DTranscom House Annex, First Floor, Ngong Road,P.O.Box 30324, Nairobi"
+DTranscom House Annex, First Floor, Ngong Road,P.O.Box 30324, Nairobi"
+street_side"
 Engineers Board of Kenya"
 P. O. Box 49720"
 water"
@@ -1671,16 +1672,15 @@ BLandmark Plaza,8th Floor,P.O.Box 61307 Argwings Kodhek Rd, Nairobi"
 ³·"	æö4,!¸q³$¹º
 %»=¼'½*¾¿"	öÎ6ÀÁ–Â"	„ü0ÃÁ–Ä"	´È1
 ³
-Å"	šÈ3Æ®
-Ç"	°„3È®É
-Ê"	îü7
-•|Ë"	¼°6Ì
-Í"	¬À3ÎÌÏ
-Ð"	æ’2"	ÐÈ,"	¼‚!Ñ®
-Ò"	šØ-Ó®
-Ô"	âž-ÕÖ
-×"	À¼-
-Ø8Ù"	Ð¦&$>Ú$?Û%»Ü"	–ª>ÝÞ–ß"	Æô;Åx
+Å"	šÈ3Æ®,ÇÈ"	°„3É®Ê
+Ë"	îü7
+•|Ì"	¼°6Í
+Î"	¬À3ÏÍÐ
+Ñ"	æ’2"	ÐÈ,"	¼‚!Ò®
+Ó"	šØ-Ô®
+Õ"	âž-Ö×
+Ø"	À¼-
+Ù8Ú"	Ð¦&$>Û$?Ü%»Ý"	–ª>Þß–à"	Æô;Åx
 railway(€ electrifiedgaugelayerpassenger_linesrailwayusagename"
 no"
 1000"
