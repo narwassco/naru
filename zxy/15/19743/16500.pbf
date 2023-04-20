@@ -5810,12 +5810,15 @@ Cv	ƒ  "	î@þ8?j„  "	²@Î8*,Ex…  "	œ@Â8*
 +N#¶  "	¨@æ?**·  "	ê@Œ@
 +F	¸  "	Ô@þ?
 :¹  "	€A˜@*  3Z º  "	Ê@Ú@*,»  "	´@Â@*
-	¼  "	Š@ @*#@)½  "	ž@à@x
-landuse(€ landuseplacename"
-residential"
+	¼  "	Š@ @*#@)½  "	ž@à@x
+landuse(€ landusenameplace"
+residential"
+Sosian Estate"
+Nasra Garden Estate"
 
 locality"
-Greenspan Housing Estate"  "	Ú˜>*Zè> ‘  ‰ 'êx
+Greenspan Housing Estate.  "$	àæ(BÒì8ªd¸ÚŠöùº‘ÿ
+B7  "-	âŸZT ÞðëÀ›ž‘üù	¢ŸV É/ K`+ÔŸ"  "	Ú˜>*Zè> ‘  ‰ 'Èx
 place(€ placenamebusamenitypublic_transport	addr:cityaddr:streetshoptourismbrandbrand:wikidatabrand:wikipediafuel:dieselfuel:kerosenefuel:lpgfuel:petrolself_service"
 suburb"
 Soweto"
@@ -5842,8 +5845,7 @@ Wallet Bar"
 KCB Kayole Branch"
 supermarket"
 
-Cleanshelf"
-Sosian Estate"
+Cleanshelf"
 Vision Stars Academy"
 hotel"
 Davana Hotel"
@@ -5853,9 +5855,9 @@ Cleanshelf"
 en:Royal Dutch Shell"
 no" 
 Shell Service Station - Kayole  "	°<œ;"	¶+’	"	ö)ê"	²*¬
-"	¨$Ü"	„–"	‚ì"	Ð’"	Òð*"	š¤("	ˆ®&"	¤Œ'  "	¾Ô/
-"	&ü;"	’œ="	
-"	†2õ:x
+"	¨$Ü"	„–"	‚ì"	Ð’"	Òð*"	š¤("	ˆ®&"	¤Œ'
+"	&ü;"	’œ="	
+"	†2õ:x
 road(€ highwaynamesurfacebridgelayerserviceaccessoneway"
 	secondary"
 Kayole Spine Road"
