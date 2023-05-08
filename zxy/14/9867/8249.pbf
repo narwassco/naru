@@ -771,8 +771,8 @@ E:	*Ð  "	À„'BLG>CK 	  §"	œú#*(
  ¢'¥  "	 A€7 ( '  "	 AÂ7 <E?  "	 @È3*2ö'Ç/  "	 AÀ2: D I 
  5  "	°@Ê1:j M    /›"	 AÚ,* –‡ g	%
 +ˆœ  "	Þ@„:B ‚`9‚Gk+l×  "	ò@°.0=  "
-	 A T!CŸx
-landuse(€ landusenamesurface	addr:cityaddr:streetresidentialdescriptionaddr:housenumber"
+	 A T!CŠx
+landuse(€ landusenamesurface	addr:cityaddr:streetresidentialdescriptionaddr:housenumberwebsite"
 residential"
 Embassy Of America Residency"
 
@@ -793,7 +793,9 @@ commercial"
 Metropolitan Estate"	
 NAIROBI"
 14,"
-14 Riverside  "	Ö+¦	¾Î‘¦½Í   "	°,À*ÀªEâÕ·—›"  "	ô?J"(1/) : ".	ò9âš,
+14 Riverside" 
+https://housingandurban.go.ke/"
+Ngara Civil Servants  "	Ö+¦	¾Î‘¦½Í   "	°,À*ÀªEâÕ·—›"  "	ô?J"(1/) : ".	ò9âš,
 H"<T
 *	VD OXG ;U5-9C!_8=j+
   "	Š-š$P67jW1I
@@ -801,7 +803,7 @@ H"<T
   "9	–€0¢vZRhrhä®[.}<ÛtƒÅ)—
 Ë9 =?W6sx¢‘* " 	È
 ¤/Bú¨§–o‹{@Cq“‰  "	°®7d”ÛŒ[Ï
- "	ŸÐ2hnÎO®x
+ "	ŸÐ2hnÎO&  "	 AA  	#›ÍV_F3®x
 nature(€ landusename"
 forest"
 Sigiria Forest"
