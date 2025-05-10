@@ -6420,8 +6420,8 @@ $1#  "	Œ"@ _?  "	9Ž	 	  "	I¶	BaC
 https://mod.go.ke/"
 Embakasi Garrison!  "	Œ)ˆ6*ˆø	r Í §Ÿ[Y'  "	Àº:Ì¦9zÑŠVo Í )+  "	îŸ:N›RÁ¨ì’	•Êùƒ=Ÿ$  "	Ž‘*6’¼òÿ€Ÿ* Á2  "&	öŸJ> ¨¾‚°„îW´‰†Ÿx ùØ3(  "	Þ	¾:B@º
 ŽÙªŸh Í% sˆý! 	
-"	 Aê7" ¶	ã	 ¦Ÿžû¨x
-place(€ 	addr:citytourismnameamenityleisureaddr:streetillegaloperator:typeaddr:constituencyaddr:districtaddr:divisionaddr:locationaddr:postcodecapacitydescriptiongenderisced:levelaccessaddr:housenumbermobileopening_hours"	
+"	 Aê7" ¶	ã	 ¦Ÿžû›	x
+place(€ 	addr:citytourismnameamenityleisureaddr:streetillegaloperator:typeaddr:constituencyaddr:districtaddr:divisionaddr:locationaddr:postcodecapacitydescriptiongenderisced:levelaccessaddr:housenumbermobileopening_hoursschool:gender"	
 Nairobi"
 hotel"
 Claire's Haven"
@@ -6458,13 +6458,18 @@ $1#  "	Œ"@ _?  "	9Ž	 	  "	I¶	BaC
 +25471486498"
 Mo-Su 09:00-23:00"
 	community"
-Jacaranda Grounds"
+Jacaranda Grounds"
+75941-00200 Nrb"
+161"	
+ngo_cbo"
+Mzesa Academy -Primary"
 police"
 Soweto Police Station  "	â$’@"	È–#"	¦®  "	Øü	
 "	žø  "	ð¶  "	¶š#	
 "	ÔÈ	
 "	ÐÄ!
-  !""	´¾	#$"	ì5ú…0x
+  !""	´¾	#	
+#$%&"	²²'("	ì5ú…0x
 road(€ highwaylanesmaxspeedsurfacerefnamebridgelayeronewayjunctionaccessbicyclecyclewayfoot"
 residential"
 2"
